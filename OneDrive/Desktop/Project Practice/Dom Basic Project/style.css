@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Beautiful Gradient Background */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    background: linear-gradient(135deg, #ffcccc, #ffe6e6, #ffffff);
+}
+
+/* Buttons container to keep both buttons parallel */
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;   /* gap between buttons */
+}
+
+/* Stylish Red Buttons */
+button {
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background: linear-gradient(135deg, #ff4b4b, #d50000);
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.35);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #d50000, #9b0000);
+    transform: scale(1.08);
+    box-shadow: 0 6px 18px rgba(255, 0, 0, 0.45);
+}
+
+/* Headings */
+h1{
+    color: #b30000;
+    font-size: 30px;
+}
+
+h2{
+    color: #cc0000;
+    font-size: 26px;
+}
