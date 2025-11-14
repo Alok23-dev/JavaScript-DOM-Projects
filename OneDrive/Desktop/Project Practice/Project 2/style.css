@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+#first{
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  background-image: url(https://i.pinimg.com/736x/88/e6/f4/88e6f4e12f769eaf56024a59285fe4fc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#navabr{
+  height: 20%;
+  width: 100%;
+  margin-top: 10px;
+
+}
+a{
+  
+  color: white;
+  
+  
+  
+}
