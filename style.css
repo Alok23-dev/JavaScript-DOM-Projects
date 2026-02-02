@@ -1,83 +1,23 @@
-*{
+html, body {
+    height: 100%;
+    width: 100%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-html, body{
-    height: 100%;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-body{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-}
-
-main{
-  height: 100%;
-  width: 100%;
-  background-color: #111;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  flex-direction: column;
-}
-
-
-#box{
-    height: 300px;
-    width: 500px;
-    background-color: rgba(255, 154, 3, 0.932);
-    border-radius: 10px;    
-    margin-bottom: 20px;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;      
 }
 
-
-
-h1{
-    color: #2d1515;
-    font-size: 50px;
-    padding:  110px 20px;
-   
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
-
-
-    
-    
+#bulb {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
 }
-    
-button{
-    padding: 20px 40px;
-    font-size: 16px;
-    border: none;
-    background-color: #ccbdbd;
-    color: #140202;
-    cursor: pointer;
-    border-radius: 10px;
 
-  
-}
-button:hover{
-    background-color: #b89da6;
-}
-button:active{
-    transform: scale(0.98);
-    background-color: #b671bd;
-}
-#inc{
-    font-weight: bold;
-    font-size: 20px;
-
+button {
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;   
 }

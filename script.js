@@ -1,47 +1,15 @@
-var arr = [
-    {
-        team: 'CSK',
-        primary: 'yellow',
-        secondary: 'blue',
-    },
-    {
-        team: 'RCB',
-        primary: 'red',
-        secondary: 'black'
-    },
-    {
-        team: 'MI',
-        primary: 'blue',
-        secondary: 'gold'
-    },
-    {
-        team: 'KKR',
-        primary: 'purple',
-        secondary: 'gold'
-    },
-    {
-        team: 'SRH',
-        primary: 'orange',
-        secondary: 'black'
-    },
-    {
-        team: 'PBKS',
-        primary: 'crimson',
-        secondary: 'silver'
-    },
-]
+let bulb = document.querySelector("#bulb");
+let button = document.querySelector("button");
+    
+let flag =0;
 
-
-var btn = document.querySelector('button')
-var h1 = document.querySelector('h1')
-var main = document.querySelector('main')
-
-btn.addEventListener('click',function(){
-
-    var winner = arr[Math.floor(Math.random()*arr.length)]
-
-    h1.innerHTML = winner.team;
-    h1.style.Color = winner.secondary;
-    main.style.backgroundColor = winner.primary;
+button.addEventListener("click", function() {
+    if(flag==0){ bulb.style.backgroundColor = "yellow";
+    
+    button.innerText = "Off";
+    flag=1;}
+    else{ bulb.style.backgroundColor = "rgb(248, 248, 248)";
+   flag=0;}
+    button.innerText = flag==0?"On":"Off";
     
 })
